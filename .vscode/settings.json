@@ -12,6 +12,7 @@
 
   // editor
   "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
   "editor.detectIndentation": false,
   "editor.cursorBlinking": "expand",
   "editor.largeFileOptimizations": false,

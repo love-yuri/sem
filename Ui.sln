@@ -56,9 +56,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPClient", "UDPClient\UDPC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLogger", "DataLogger\DataLogger.csproj", "{2667C2DD-0B7A-44A1-ABEB-AA022AAD6F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPCSClientLib", "GPCSClientLib\GPCSClientLib.csproj", "{37C446AB-F13B-4A3F-BB0E-135125AC4653}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPCSClientLib", "ClientLib\GPCSClientLib.csproj", "{37C446AB-F13B-4A3F-BB0E-135125AC4653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoammeterCtlrLib", "PicoammeterCtlrLib\PicoammeterCtlrLib.csproj", "{FD5ACA83-5DEA-4CC4-8628-723C1C7967A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoammeterCtlrLib", "SEM_UI_PicoammeterCtrlLib\PicoammeterCtlrLib.csproj", "{FD5ACA83-5DEA-4CC4-8628-723C1C7967A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
