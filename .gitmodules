@@ -145,29 +145,36 @@
 	branch = master
 [submodule "AutoBCLib"]
 	path = AutoBCLib
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/AutoBCLib.git
 	branch = master
 [submodule "AutoFocusLib"]
 	path = AutoFocusLib
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/AutoFocusLib.git
 	branch = master
 [submodule "CSServer"]
 	path = CSServer
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/CSServer.git
 	branch = master
 [submodule "Database"]
 	path = Database
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/Database.git
 	branch = master
 [submodule "GPCSConfig"]
 	path = GPCSConfig
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/GPCSConfig.git
 	branch = master
 [submodule "ServerLib"]
 	path = ServerLib
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/ServerLib.git
 	branch = master
 [submodule "ScanGenLib"]
 	path = ScanGenLib
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/ScanGenLib.git
 	branch = master
