@@ -143,7 +143,7 @@ cd /d "%~dp0.." || (
     exit /b 1
 )
 
-@REM git submodule foreach --recursive "git checkout master && git pull origin master"
+git submodule foreach --recursive "git checkout master && git pull origin master"
 echo [OK] 所有子模块切换到master分支
 echo =======================================================
 
