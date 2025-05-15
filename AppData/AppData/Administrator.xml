@@ -1,0 +1,88 @@
+<UserPreference>
+  <PenGraphicType>0</PenGraphicType>
+  <AnnotationDisplayMode>0</AnnotationDisplayMode>
+  <Language Options="Chinese|English">Chinese</Language>
+  <VacuumUnits Options="Pa|mbar|Torr">Pa</VacuumUnits>
+  <MagRef Options="polaroid 545|user defined">polaroid 545</MagRef>
+  <MagMode Options="Size|Multiple">Size</MagMode>
+  <Color>#2de5ff</Color>
+  <Freezeon Options="immediately|end frame">immediately</Freezeon>
+  <NaviAddPoints Options="crosshair|leftclick">
+  </NaviAddPoints>
+  <CenterFeature Options="stage shift|stage+beam|beam shift">stage shift</CenterFeature>
+  <HVvalueList Options="">5</HVvalueList>
+  <MagList Options="30|50|100|200|500|1000|2000|5000|10000|20000|50000|100000|200000|500000|1000000|2000000">30</MagList>
+  <DWellList Options="50|100|200|400|800|1600|3200|6400|12800|25600|51200">400</DWellList>
+  <StageStepList Options="0.05|0.05|5|0.1|1">0</StageStepList>
+  <FastScan ScanSpeedOptions="1-15" NoiseReductionModeOptions="line|frame|spot" AverageNumber="0|1|2|4|8|16|32|64|128|256">
+    <ScanSpeed>5</ScanSpeed>
+    <NoiseReductionMode>line</NoiseReductionMode>
+    <AverageNumber>1</AverageNumber>
+  </FastScan>
+  <CaptureScan ScanSpeedOptions="1-15" NoiseReductionModeOptions="line|frame|spot" AverageNumber="0|1|2|4|8|16|32|64|128|256">
+    <ScanSpeed>12</ScanSpeed>
+    <NoiseReductionMode>frame</NoiseReductionMode>
+    <AverageNumber>1</AverageNumber>
+  </CaptureScan>
+  <MoveStageAtAFovSize>0</MoveStageAtAFovSize>
+  <IsEcROn>0</IsEcROn>
+  <IsEcTOn>0</IsEcTOn>
+  <IsLockStage>0</IsLockStage>
+  <IsLockJoyStick>0</IsLockJoyStick>
+  <defaultSaveImagePath>C:\Users\82734\Desktop</defaultSaveImagePath>
+  <defaultVideoSavePath>C:\Users\82734\Desktop</defaultVideoSavePath>
+  <defaultImageFileName>SEMImage</defaultImageFileName>
+  <defaultImageFormat>.tif</defaultImageFormat>
+  <defaultImageNumber>00</defaultImageNumber>
+  <defaultImageDigits>2</defaultImageDigits>
+  <ImageCrossIn>0</ImageCrossIn>
+  <ImageBurnIn>1</ImageBurnIn>
+  <ImageWithDatabar>1</ImageWithDatabar>
+  <ImageGray>0</ImageGray>
+  <IsWithTextToolBarStyle>1</IsWithTextToolBarStyle>
+  <IsStageZToZeroWithVent>1</IsStageZToZeroWithVent>
+  <IsDualChannelSubFolderOn>1</IsDualChannelSubFolderOn>
+  <IsQuadModeSubFolderOn>1</IsQuadModeSubFolderOn>
+  <DualChannelSelection>11</DualChannelSelection>
+  <QuadModeChannelSelection>11111</QuadModeChannelSelection>
+  <IsAutoCapture>0</IsAutoCapture>
+  <ResetOptions>
+    <SetETDetector>1</SetETDetector>
+    <FastScan>1</FastScan>
+    <ChooseCenterAperture>1</ChooseCenterAperture>
+    <BeamShiftZero>1</BeamShiftZero>
+    <DynamicFocusOff>1</DynamicFocusOff>
+    <ScanRotation0>0</ScanRotation0>
+    <TiltCorrectionOff>0</TiltCorrectionOff>
+    <StageTiltAngle0>0</StageTiltAngle0>
+    <CenterFeature>0</CenterFeature>
+    <StageOnlyResetLUT>0</StageOnlyResetLUT>
+    <LowestMagnification>0</LowestMagnification>
+    <ImageResolution1024>0</ImageResolution1024>
+    <Degauss>0</Degauss>
+  </ResetOptions>
+  <SensivityOptions>
+    <StigXY>20</StigXY>
+    <ApXY>20</ApXY>
+    <ScanR>50</ScanR>
+    <Brightness>10</Brightness>
+    <Contrast>10</Contrast>
+    <Mag>10</Mag>
+    <Focus>20</Focus>
+    <ShiftXY>10</ShiftXY>
+    <StageR>50</StageR>
+    <StageXY>50</StageXY>
+    <StageZT>50</StageZT>
+    <MouseStigXY>50</MouseStigXY>
+    <MouseMag>50</MouseMag>
+    <MouseFocus>50</MouseFocus>
+  </SensivityOptions>
+  <GunAlignX>0</GunAlignX>
+  <GunAlignY>0</GunAlignY>
+  <ApAlignX>0</ApAlignX>
+  <ApAlignY>0</ApAlignY>
+  <CustomShortKeyMode>0</CustomShortKeyMode>
+  <IsShortKey_AutoBCOn>0</IsShortKey_AutoBCOn>
+  <IsShortKey_AutoFocusOn>0</IsShortKey_AutoFocusOn>
+  <IsShortKey_AutoStigOn>0</IsShortKey_AutoStigOn>
+</UserPreference>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 829.44 1050.71">
+  <defs>
+    <style>
+      .uuid-ee31d04d-4e83-4e62-8d72-6dccb116ca91 {
+        filter: url(#uuid-1e408e13-57b5-46b9-b7f5-89bebabb8fa6);
+      }
+
+      .uuid-ee31d04d-4e83-4e62-8d72-6dccb116ca91, .uuid-2cb73575-6f78-44b8-99d7-841cd98881d8, .uuid-7aa28dc1-38bf-40f2-b16f-091d366154b6, .uuid-ec118beb-5012-4e64-8e23-edf73f31c031, .uuid-08cdd05f-14a1-4fac-8bdd-cc8100162fd0, .uuid-029fb626-f2f9-4cae-9221-2cba59882ce0 {
+        stroke-width: 0px;
+      }
+
+      .uuid-ee31d04d-4e83-4e62-8d72-6dccb116ca91, .uuid-2cb73575-6f78-44b8-99d7-841cd98881d8, .uuid-ec118beb-5012-4e64-8e23-edf73f31c031 {
+        fill: #71767e;
+      }
+
+      .uuid-36283c72-50a0-42e2-b481-f200e8a0bf2a {
+        filter: url(#uuid-dd1fd0ab-b616-495c-918f-ede0b23ff147);
+        font-family: Arial-BoldMT, Arial;
+        font-size: 120px;
+        font-weight: 700;
+      }
+
+      .uuid-36283c72-50a0-42e2-b481-f200e8a0bf2a, .uuid-7aa28dc1-38bf-40f2-b16f-091d366154b6, .uuid-08cdd05f-14a1-4fac-8bdd-cc8100162fd0 {
+        fill: #0ad8e5;
+      }
+
+      .uuid-2cb73575-6f78-44b8-99d7-841cd98881d8 {
+        filter: url(#uuid-ac67c721-7afa-4fcb-a3a8-99f9d78a66d7);
+      }
+
+      .uuid-7aa28dc1-38bf-40f2-b16f-091d366154b6 {
+        filter: url(#uuid-f6045874-bc81-461f-ab11-079c754396ed);
+      }
+
+      .uuid-029fb626-f2f9-4cae-9221-2cba59882ce0 {
+        fill: #fff;
+      }
+
+      .uuid-9bf0db07-f721-461f-877e-0c793221471a {
+        filter: url(#uuid-72187d7a-3534-4ba6-97da-20b35e3fee2a);
+      }
+
+      .uuid-24c69aaa-b98a-41d5-b5c0-0cd9569ec5ff {
+        opacity: .3;
+      }
+    </style>
+    <filter id="uuid-ac67c721-7afa-4fcb-a3a8-99f9d78a66d7" data-name="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur result="uuid-838f4d5c-7081-4043-9407-7406eff35940" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="uuid-838f4d5c-7081-4043-9407-7406eff35940" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="uuid-1e408e13-57b5-46b9-b7f5-89bebabb8fa6" data-name="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur result="uuid-956cc526-c4f7-4722-afaf-25e3bef38be7" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="uuid-956cc526-c4f7-4722-afaf-25e3bef38be7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="uuid-f6045874-bc81-461f-ab11-079c754396ed" data-name="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur result="uuid-c192de96-3938-44a8-adcd-a97663e0b093" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="uuid-c192de96-3938-44a8-adcd-a97663e0b093" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="uuid-72187d7a-3534-4ba6-97da-20b35e3fee2a" data-name="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur result="uuid-606e6554-7b66-46a6-97fb-6ffd1bd85dbe" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="uuid-606e6554-7b66-46a6-97fb-6ffd1bd85dbe" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="uuid-dd1fd0ab-b616-495c-918f-ede0b23ff147" data-name="drop-shadow-7" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur result="uuid-c47ec259-f4eb-4510-a784-9a3e7c5db686" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="uuid-c47ec259-f4eb-4510-a784-9a3e7c5db686" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="uuid-57b5214b-7491-4820-8eb8-a58379651b27" data-name="图层 8">
+    <g class="uuid-24c69aaa-b98a-41d5-b5c0-0cd9569ec5ff">
+      <rect class="uuid-029fb626-f2f9-4cae-9221-2cba59882ce0" x="1" width="827.14" height="1050.42" rx="100" ry="100"/>
+    </g>
+  </g>
+  <g id="uuid-30ee84b2-85bc-4509-a0db-826b4ac93588" data-name="图层 4">
+    <g>
+      <path class="uuid-2cb73575-6f78-44b8-99d7-841cd98881d8" d="M63.5,262.98c-2.25,5.39-2.25,11.45,0,16.84.96,2.98,2.69,5.64,5.01,7.74l126.54,128.82c9.01,8.73,23.31,8.73,32.32,0,4.31-4.27,6.73-10.09,6.73-16.16s-2.42-11.89-6.73-16.16l-91.04-91.23h157.49c12.57.19,22.76-10,22.76-22.57s-10.19-22.76-22.76-23.43h-154.31l91.04-90.37c4.31-4.27,6.73-10.09,6.73-16.16s-2.42-11.88-6.73-16.16c-9-8.73-23.31-8.73-32.32,0L68.51,254.79c-1.93,2.14-3.47,4.61-4.55,7.28l-.46.91Z"/>
+      <path class="uuid-ee31d04d-4e83-4e62-8d72-6dccb116ca91" d="M762.21,279.83c2.28-5.54,2.28-11.76,0-17.3-1.01-2.95-2.73-5.61-5.01-7.74l-128.36-128.36c-9.01-8.73-23.31-8.73-32.32,0-4.31,4.27-6.73,10.09-6.73,16.16s2.42,11.89,6.73,16.16l91.04,91.09h-155.67c-6.04-.05-11.83,2.35-16.09,6.61-4.27,4.27-6.67,10.06-6.67,16.09s2.4,11.83,6.67,16.09c4.27,4.27,10.06,6.67,16.09,7.2h154.31l-91.04,90.51c-4.31,4.27-6.73,10.09-6.73,16.16s2.42,11.89,6.73,16.16c9.01,8.73,23.32,8.73,32.32,0l128.36-128.82c1.93-1.98,3.47-4.29,4.55-6.83l1.82-3.19Z"/>
+      <rect class="uuid-7aa28dc1-38bf-40f2-b16f-091d366154b6" x="378" y="59.6" width="69.46" height="440.06"/>
+    </g>
+  </g>
+  <g id="uuid-17d266e9-0c3a-4d65-bfab-80688971b47f" data-name="图层 6">
+    <g class="uuid-9bf0db07-f721-461f-877e-0c793221471a">
+      <path class="uuid-ec118beb-5012-4e64-8e23-edf73f31c031" d="M316.85,726.97v37.57c0,21.03,8.36,41.21,23.23,56.08,14.87,14.87,35.05,23.23,56.08,23.23h33.4c21.03,0,41.21-8.36,56.08-23.23,14.87-14.87,23.23-35.05,23.23-56.08v-37.58h-192.03ZM316.85,726.97"/>
+      <path class="uuid-ec118beb-5012-4e64-8e23-edf73f31c031" d="M396.17,658.09v-29.22c0-10.38,8.41-18.79,18.79-18.79s18.79,8.41,18.79,18.79v29.22c0,10.38-8.41,18.79-18.79,18.79s-18.79-8.41-18.79-18.79h0ZM396.17,658.09"/>
+      <path class="uuid-ec118beb-5012-4e64-8e23-edf73f31c031" d="M316.85,718.63h93.92v-33.7c-5.72-.81-10.72-3.36-15-7.65-5.3-5.3-7.95-11.69-7.95-19.18v-29.22c0-7.5,2.65-13.89,7.95-19.18,4.29-4.29,9.29-6.84,15-7.67v-29.51h-14.61c-21.03,0-41.21,8.36-56.08,23.23-14.87,14.87-23.23,35.05-23.23,56.08v66.8ZM316.85,718.63"/>
+      <path class="uuid-08cdd05f-14a1-4fac-8bdd-cc8100162fd0" d="M419.14,718.63h89.75v-66.82c0-43.8-35.52-79.3-79.31-79.3h-10.45v29.51c5.73.81,10.73,3.37,15.02,7.67,5.3,5.29,7.95,11.69,7.95,19.18v29.22c0,7.49-2.65,13.88-7.95,19.18-4.29,4.29-9.29,6.84-15,7.65v33.7ZM419.14,718.63"/>
+    </g>
+  </g>
+  <g id="uuid-23b868cb-1b8a-49e3-a749-050db012242f" data-name="图层 7">
+    <text class="uuid-36283c72-50a0-42e2-b481-f200e8a0bf2a" transform="translate(23.15 973.65)"><tspan x="0" y="0">WD 5.678 mm</tspan></text>
+  </g>
+</svg>

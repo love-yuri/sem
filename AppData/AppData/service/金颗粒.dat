@@ -1,0 +1,10 @@
+HV = 15 # True
+Aperture = 5 # True
+WD = 2.93 # True
+DwellTime = 800 # True
+Average = 8 # True
+AverageMode = 1 # True
+Detector = 2 # True
+InLensGainV = 0 # True
+HighCurrent = 0 # False
+
