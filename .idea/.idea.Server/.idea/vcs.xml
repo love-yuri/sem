@@ -2,9 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AutoBCLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AutoFocusLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CSServer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ClientLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Database" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DebugLogger" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GPCSCommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GPCSConfig" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ImageDocument" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ImageGraphics" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ImageLib" vcs="Git" />
@@ -30,6 +35,8 @@
     <mapping directory="$PROJECT_DIR$/SEM_UI_ToolBar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_UserPreConfig" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_Viewer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScanGenLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ServerLib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UDPClient" vcs="Git" />
   </component>
 </project>
