@@ -9,6 +9,7 @@ _ReSharper.Caches/
 
 *.userprefs
 mono_crash.*
+.idea/
 
 [Dd]ebug/
 [Dd]ebugPublic/
