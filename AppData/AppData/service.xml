@@ -37,8 +37,8 @@
     <ScB>0</ScB>
   </AnnotationTextBackColor>
   <AnnotationFontFamily>Calibri</AnnotationFontFamily>
-  <AnnotationFontStyle />
-  <AnnotationFontStyleWeight />
+  <AnnotationFontStyle>Normal</AnnotationFontStyle>
+  <AnnotationFontStyleWeight>Normal</AnnotationFontStyleWeight>
   <AnnotationFontSize>18</AnnotationFontSize>
   <AnnotationThickness>4</AnnotationThickness>
   <Freezeon>end frame</Freezeon>
@@ -55,7 +55,7 @@
   <HvValueList>
     <double>12.5</double>
   </HvValueList>
-  <HvValueSelected>0.1</HvValueSelected>
+  <HvValueSelected>1</HvValueSelected>
   <MagList>
     <double>30</double>
     <double>50</double>
@@ -93,7 +93,7 @@
   <FastScanNoiseReMode>line</FastScanNoiseReMode>
   <FastScanAvgNum>1</FastScanAvgNum>
   <SlowScanSpeed>6</SlowScanSpeed>
-  <SlowScanNoiseReMode>line</SlowScanNoiseReMode>
+  <SlowScanNoiseReMode>frame</SlowScanNoiseReMode>
   <SlowScanAvgNum>4</SlowScanAvgNum>
   <CaptureScanSpeed>7</CaptureScanSpeed>
   <CaptureScanNoiseReMode>line</CaptureScanNoiseReMode>
@@ -115,11 +115,11 @@
   <IsMoveToTAixsChecked>false</IsMoveToTAixsChecked>
   <IsLockStage>false</IsLockStage>
   <IsLockJoyStick>false</IsLockJoyStick>
-  <DefaultSaveImagePath>C:\Users\82734\Desktop</DefaultSaveImagePath>
+  <DefaultSaveImagePath>E:\pictures\work</DefaultSaveImagePath>
   <DefaultVideoSavePath>C:\Users\82734\Desktop</DefaultVideoSavePath>
   <DefaultImageFileName>SEMImage</DefaultImageFileName>
   <DefaultImageFormat>.tif</DefaultImageFormat>
-  <DefaultImageNumber>02</DefaultImageNumber>
+  <DefaultImageNumber>04</DefaultImageNumber>
   <DefaultImageDigits>2</DefaultImageDigits>
   <IsImageCrossIn>false</IsImageCrossIn>
   <IsImageBurnIn>true</IsImageBurnIn>
@@ -127,7 +127,7 @@
   <IsImageGray>false</IsImageGray>
   <IsAutoCapture>false</IsAutoCapture>
   <IsWithTextToolBarStyle>true</IsWithTextToolBarStyle>
-  <IsStageZToZeroWithVent>true</IsStageZToZeroWithVent>
+  <IsStageZToZeroWithVent>false</IsStageZToZeroWithVent>
   <IsDualChannelSubFolderOn>true</IsDualChannelSubFolderOn>
   <IsQuadModeSubFolderOn>true</IsQuadModeSubFolderOn>
   <DualChannelSelection>0</DualChannelSelection>
@@ -162,10 +162,10 @@
     <MouseMag>50</MouseMag>
     <MouseFocus>50</MouseFocus>
   </SensitivityOptions>
-  <GunAlignX>0</GunAlignX>
-  <GunAlignY>0</GunAlignY>
-  <ApAlignX>0</ApAlignX>
-  <ApAlignY>0</ApAlignY>
+  <GunAlignX>-5182</GunAlignX>
+  <GunAlignY>1473</GunAlignY>
+  <ApAlignX>-3665</ApAlignX>
+  <ApAlignY>2932</ApAlignY>
   <CustomShortKeyMode>0</CustomShortKeyMode>
   <IsShortKey_AutoBCOn>false</IsShortKey_AutoBCOn>
   <IsShortKey_AutoFocusOn>false</IsShortKey_AutoFocusOn>
