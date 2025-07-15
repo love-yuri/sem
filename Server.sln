@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPCSServerLib", "ServerLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLib", "ImageLib\ImageLib.csproj", "{865E0FAC-FCB7-4076-B409-8D68580CA0A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFocusLib", "AutoFocusLib\AutoFocusLib.csproj", "{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFocusLib", "AutoFocusLib\AutomationLib.csproj", "{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoBCLib", "AutoBCLib\AutoBCLib.csproj", "{0E9EC87F-E2FA-41B5-920E-47ACBBE3E430}"
 EndProject
