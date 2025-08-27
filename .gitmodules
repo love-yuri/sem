@@ -180,5 +180,6 @@
 	branch = master
 [submodule "SEM_PolygonCtrlLib"]
 	path = SEM_PolygonCtrlLib
+	ignore = all
 	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_PolygonCtrlLib.git
 	branch = master
