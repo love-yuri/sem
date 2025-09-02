@@ -45,6 +45,7 @@ nunit-*.xml
 # 忽略两个链接文件
 /GPCSClientLib/
 /PicoammeterCtlrLib/
+/AutomationLib/
 
 # 忽略diss6的日志
 /AppData/diss6/logs
