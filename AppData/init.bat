@@ -21,6 +21,20 @@ if not exist "PicoammeterCtlrLib" (
     echo [SKIP] PicoammeterCtlrLib 已存在，跳过创建
 )
 
+REM 检查并创建 PicoammeterCtlrLib 链接
+if not exist "AutoFocusLib" (
+    mklink /J AutomationLib AutoFocusLib >nul 2>&1 || (
+        echo [ERROR] 创建 AutomationLib 失败！请确认目标目录 AutoFocusLib 存在
+        pause
+        exit /b 1
+    )
+    echo [OK] Junction 创建成功
+) else (
+    echo [SKIP] AutomationLib 已存在，跳过创建
+)
+
+
+
 REM 检查并创建 GPCSClientLib 链接
 if not exist "GPCSClientLib" (
     mklink /J GPCSClientLib ClientLib >nul 2>&1 || (
