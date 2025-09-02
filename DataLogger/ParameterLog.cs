@@ -95,6 +95,11 @@ namespace DataLogger
             ClientLib.Instance.ParameterChangedDouble += Instance_ParameterChangedDouble;
         }
 
+        public Task SaveImgAndStopLoggingAsync(object o)
+        {
+            return Task.CompletedTask;
+        }
+
         //~ParameterLog()
         //{
         //    try
