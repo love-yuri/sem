@@ -82,10 +82,6 @@
       <Project>{37c446ab-f13b-4a3f-bb0e-135125ac4653}</Project>
       <Name>GPCSClientLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GPCSClientLib\GPCSClientLib.csproj">
-      <Project>{37c446ab-f13b-4a3f-bb0e-135125ac4653}</Project>
-      <Name>GPCSClientLib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GPCSCommon\GPCSCommon.csproj">
       <Project>{5ff278b4-105a-4f3a-a235-b16e86d84a6d}</Project>
       <Name>GPCSCommon</Name>
