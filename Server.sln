@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPCSCommon", "GPCSCommon\GPCSCommon.csproj", "{5FF278B4-105A-4F3A-A235-B16E86D84A6D}"
 EndProject
@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPCSServerLib", "ServerLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLib", "ImageLib\ImageLib.csproj", "{865E0FAC-FCB7-4076-B409-8D68580CA0A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFocusLib", "AutoFocusLib\AutomationLib.csproj", "{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationLib", "AutoFocusLib\AutomationLib.csproj", "{70CCE954-625D-4D32-819F-C14BF8130F95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoBCLib", "AutoBCLib\AutoBCLib.csproj", "{0E9EC87F-E2FA-41B5-920E-47ACBBE3E430}"
 EndProject
@@ -118,14 +118,14 @@ Global
 		{865E0FAC-FCB7-4076-B409-8D68580CA0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{865E0FAC-FCB7-4076-B409-8D68580CA0A1}.Release|x64.ActiveCfg = Release|Any CPU
 		{865E0FAC-FCB7-4076-B409-8D68580CA0A1}.Release|x64.Build.0 = Release|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Debug|x64.Build.0 = Debug|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Release|x64.ActiveCfg = Release|Any CPU
-		{FA598A83-E46F-480B-8AFE-8AD328CB0DA7}.Release|x64.Build.0 = Release|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Debug|x64.Build.0 = Debug|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Release|x64.ActiveCfg = Release|Any CPU
+		{70CCE954-625D-4D32-819F-C14BF8130F95}.Release|x64.Build.0 = Release|Any CPU
 		{0E9EC87F-E2FA-41B5-920E-47ACBBE3E430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E9EC87F-E2FA-41B5-920E-47ACBBE3E430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E9EC87F-E2FA-41B5-920E-47ACBBE3E430}.Debug|x64.ActiveCfg = Debug|Any CPU
