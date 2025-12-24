@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/ImageDocument" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ImageGraphics" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ImageLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/KnobPanelLib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_PolygonCtrlLib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_AnnotationBar" vcs="Git" />
@@ -21,6 +22,7 @@
     <mapping directory="$PROJECT_DIR$/SEM_UI_CtrlPanel" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_DataBar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_JoyStick" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SEM_UI_KnobPanel" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_MenuBar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_PicoammeterCtrlLib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SEM_UI_Plasma" vcs="Git" />
