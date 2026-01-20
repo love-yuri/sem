@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_UI", "SEM_UI\SEM_UI.csproj", "{C92481DE-156A-4E41-B55A-3423633D3819}"
 EndProject
@@ -45,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_UI_DataBar", "SEM_UI_Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_UI_Resolution", "SEM_UI_Resolution\SEM_UI_Resolution.csproj", "{9EDF2D42-437C-4B47-8F7D-48039FD9B060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_UI_CtrlPanel", "SEM_UI_CtrlPanel\SEM_UI_CtrlPanel.csproj", "{F13381FC-1A04-4126-8A24-D924857BB821}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_UI_CtrlPanel", "SEM_UI_CtrlPanel\SEM_UI_CtrlPanel.csproj", "{821A0BD5-C14B-4175-B918-82D225B3BBA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_UI_ShortCutBar", "SEM_UI_ShortCutBar\SEM_UI_ShortCutBar.csproj", "{672EA055-BF4D-4CB1-8FB3-B43D0586C1B7}"
 EndProject
@@ -153,10 +153,10 @@ Global
 		{9EDF2D42-437C-4B47-8F7D-48039FD9B060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EDF2D42-437C-4B47-8F7D-48039FD9B060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDF2D42-437C-4B47-8F7D-48039FD9B060}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F13381FC-1A04-4126-8A24-D924857BB821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F13381FC-1A04-4126-8A24-D924857BB821}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F13381FC-1A04-4126-8A24-D924857BB821}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F13381FC-1A04-4126-8A24-D924857BB821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821A0BD5-C14B-4175-B918-82D225B3BBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821A0BD5-C14B-4175-B918-82D225B3BBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821A0BD5-C14B-4175-B918-82D225B3BBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821A0BD5-C14B-4175-B918-82D225B3BBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{672EA055-BF4D-4CB1-8FB3-B43D0586C1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{672EA055-BF4D-4CB1-8FB3-B43D0586C1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672EA055-BF4D-4CB1-8FB3-B43D0586C1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -192,5 +192,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FBE7EDA-681B-48D0-ADFF-053E3A5AB901}
 	EndGlobalSection
 EndGlobal
