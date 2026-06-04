@@ -10,6 +10,7 @@ _ReSharper.Caches/
 *.userprefs
 mono_crash.*
 .idea/
+.claude/*.local.json
 
 [Dd]ebug/
 [Dd]ebugPublic/
