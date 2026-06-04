@@ -72,12 +72,7 @@ def dim(text):
 
 def print_banner():
     """打印横幅"""
-    banner = f"""
-{Color.BRIGHT_CYAN}╔════════════════════════════════════════════════════════════╗
-║              {Color.BOLD}{Color.WHITE}Git 分支管理工具{Color.RESET}{Color.BRIGHT_CYAN}                           ║
-║              {Color.GRAY}Branch Management Tool{Color.RESET}{Color.BRIGHT_CYAN}                        ║
-╚════════════════════════════════════════════════════════════╝{Color.RESET}"""
-    print(banner)
+    pass
 
 
 def print_header(title):
@@ -637,29 +632,20 @@ def show_status():
 
 def print_menu():
     """打印主菜单"""
-    cwd = os.getcwd()
-    git_cmd = get_git_cmd()
-
     print()
-    print(f"  {Color.GRAY}┌──────────────────────────────────────────────┐{Color.RESET}")
-    print(f"  {Color.GRAY}│{Color.RESET}  工作目录: {Color.WHITE}{cwd}{Color.RESET}")
-    print(f"  {Color.GRAY}│{Color.RESET}  Git 命令: {Color.WHITE}{git_cmd}{Color.RESET}")
-    print(f"  {Color.GRAY}└──────────────────────────────────────────────┘{Color.RESET}")
-
-    print()
-    print(f"  {Color.BRIGHT_CYAN}┌──────────────────────────────────────────────┐{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}                                            {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('1', Color.BRIGHT_WHITE)}. 搁置所有修改                   {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('2', Color.BRIGHT_WHITE)}. 恢复搁置的修改                 {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('3', Color.BRIGHT_WHITE)}. 同步远程更新 (Pull)            {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('4', Color.BRIGHT_WHITE)}. 子仓库切到 ABSEM 分支          {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('5', Color.BRIGHT_WHITE)}. 所有仓库切到 master 分支        {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('6', Color.BRIGHT_WHITE)}. 同步 master → ABSEM             {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('7', Color.BRIGHT_WHITE)}. 显示所有仓库状态                {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}                                            {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}   {colorize('0', Color.BRIGHT_RED)}. 退出                            {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}                                            {Color.BRIGHT_CYAN}│{Color.RESET}")
-    print(f"  {Color.BRIGHT_CYAN}└──────────────────────────────────────────────┘{Color.RESET}")
+    print(f"  {Color.BRIGHT_CYAN}┌─────────────────────────────────────────────────────────────┐{Color.RESET}")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('1', Color.BRIGHT_WHITE)}. 搁置所有修改")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('2', Color.BRIGHT_WHITE)}. 恢复搁置的修改")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('3', Color.BRIGHT_WHITE)}. 同步远程更新 (Pull)")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('4', Color.BRIGHT_WHITE)}. 子仓库切到 ABSEM 分支")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('5', Color.BRIGHT_WHITE)}. 所有仓库切到 master 分支")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('6', Color.BRIGHT_WHITE)}. 同步 master → ABSEM")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('7', Color.BRIGHT_WHITE)}. 显示所有仓库状态")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('0', Color.BRIGHT_RED)}. 退出")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
+    print(f"  {Color.BRIGHT_CYAN}└─────────────────────────────────────────────────────────────┘{Color.RESET}")
 
 
 def main():
