@@ -586,7 +586,7 @@ def sync_master_to_absem():
 
 
 def copy_to_f_drive():
-    """一键复制到 F 盘（增量复制，排除 bin/obj/.vs/.idea/.git）"""
+    """一键复制到 F 盘（增量复制，排除 bin/obj/.vs/.idea）"""
     print_header("复制到 F 盘")
 
     src = os.getcwd()
@@ -598,7 +598,7 @@ def copy_to_f_drive():
 
     print(f"  {info('源目录:')} {Color.WHITE}{src}{Color.RESET}")
     print(f"  {info('目标:')}   {Color.WHITE}{dst}{Color.RESET}")
-    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/ .idea/ .git/{Color.RESET}")
+    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/ .idea/{Color.RESET}")
     print()
 
     # 使用 robocopy 实现增量复制
@@ -609,7 +609,7 @@ def copy_to_f_drive():
     cmd = [
         "robocopy", src, dst,
         "/MIR",
-        "/XD", "bin", "obj", ".vs", ".idea", ".git", "$RECYCLE.BIN",
+        "/XD", "bin", "obj", ".vs", ".idea", "$RECYCLE.BIN",
         "/XA:SH",
         "/MT:16"
     ]
