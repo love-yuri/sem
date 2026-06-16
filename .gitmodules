@@ -1,185 +1,185 @@
 [submodule "SEM_UI"]
 	path = SEM_UI
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI.git
 	branch = master
 [submodule "SEM_UI_CtrlEx"]
 	path = SEM_UI_CtrlEx
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_CtrlEx.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_CtrlEx.git
 	branch = master
 [submodule "SEM_UI_SystemMessageWindow"]
 	path = SEM_UI_SystemMessageWindow
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_SystemMessageWindow.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_SystemMessageWindow.git
 	branch = master
 [submodule "SEM_UI_MenuBar"]
 	path = SEM_UI_MenuBar
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_MenuBar.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_MenuBar.git
 	branch = master
 [submodule "SEM_UI_JoyStick"]
 	path = SEM_UI_JoyStick
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_JoyStick.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_JoyStick.git
 	branch = master
 [submodule "SEM_UI_DataBar"]
 	path = SEM_UI_DataBar
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_DataBar.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_DataBar.git
 	branch = master
 [submodule "SEM_UI_SettingWindows"]
 	path = SEM_UI_SettingWindows
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_SettingWindows.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_SettingWindows.git
 	branch = master
 [submodule "SEM_UI_StateBar"]
 	path = SEM_UI_StateBar
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_StateBar.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_StateBar.git
 	branch = master
 [submodule "SEM_UI_ShortCutBar"]
 	path = SEM_UI_ShortCutBar
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_ShortCutBar.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_ShortCutBar.git
 	branch = master
 [submodule "SEM_UI_AnnotationBar"]
 	path = SEM_UI_AnnotationBar
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_AnnotationBar.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_AnnotationBar.git
 	branch = master
 [submodule "SEM_UI_UserPreConfig"]
 	path = SEM_UI_UserPreConfig
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_UserPreConfig.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_UserPreConfig.git
 	branch = master
 [submodule "SEM_UI_ToolBar"]
 	path = SEM_UI_ToolBar
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_ToolBar.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_ToolBar.git
 	branch = master
 [submodule "SEM_UI_CtrlPanel"]
 	path = SEM_UI_CtrlPanel
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_CtrlPanel.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_CtrlPanel.git
 	branch = master
 [submodule "SEM_UI_Recipe"]
 	path = SEM_UI_Recipe
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Recipe.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Recipe.git
 	branch = master
 [submodule "SEM_UI_Viewer"]
 	path = SEM_UI_Viewer
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Viewer.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Viewer.git
 	branch = master
 [submodule "SEM_UI_CCDViewer"]
 	path = SEM_UI_CCDViewer
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_CCDViewer.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_CCDViewer.git
 	branch = master
 [submodule "KnobPanelLib"]
 	path = KnobPanelLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/KnobPanelLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/KnobPanelLib.git
 	branch = master
 [submodule "SEM_UI_KnobPanel"]
 	path = SEM_UI_KnobPanel
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_KnobPanel.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_KnobPanel.git
 	branch = master
 [submodule "ImageGraphics"]
 	path = ImageGraphics
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/ImageGraphics.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/ImageGraphics.git
 	branch = master
 [submodule "ImageDocument"]
 	path = ImageDocument
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/ImageDocument.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/ImageDocument.git
 	branch = master
 [submodule "SEM_UI_Resolution"]
 	path = SEM_UI_Resolution
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Resolution.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Resolution.git
 	branch = master
 [submodule "SEM_UI_Plasma"]
 	path = SEM_UI_Plasma
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Plasma.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_Plasma.git
 	branch = master
 [submodule "SEM_UI_PicoammeterCtrlLib"]
 	path = SEM_UI_PicoammeterCtrlLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_PicoammeterCtrlLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_PicoammeterCtrlLib.git
 	branch = master
 [submodule "SEM_UI_SerialPort"]
 	path = SEM_UI_SerialPort
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_SerialPort.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_UI_SerialPort.git
 	branch = master
 [submodule "GPCSCommon"]
 	path = GPCSCommon
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/GPCSCommon.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/GPCSCommon.git
 	branch = master
 [submodule "DebugLogger"]
 	path = DebugLogger
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/DebugLogger.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/DebugLogger.git
 	branch = master
 [submodule "ClientLib"]
 	path = ClientLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/ClientLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/ClientLib.git
 	branch = master
 [submodule "ImageLib"]
 	path = ImageLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/ImageLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/ImageLib.git
 	branch = master
 [submodule "UDPClient"]
 	path = UDPClient
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/UDPClient.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/UDPClient.git
 	branch = master
 [submodule "AutoBCLib"]
 	path = AutoBCLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/AutoBCLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/AutoBCLib.git
 	branch = master
 [submodule "AutoFocusLib"]
 	path = AutoFocusLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/AutoFocusLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/AutoFocusLib.git
 	branch = master
 [submodule "CSServer"]
 	path = CSServer
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/CSServer.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/CSServer.git
 	branch = master
 [submodule "Database"]
 	path = Database
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/Database.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/Database.git
 	branch = master
 [submodule "GPCSConfig"]
 	path = GPCSConfig
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/GPCSConfig.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/GPCSConfig.git
 	branch = master
 [submodule "ServerLib"]
 	path = ServerLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/ServerLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/ServerLib.git
 	branch = master
 [submodule "ScanGenLib"]
 	path = ScanGenLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_Server/ScanGenLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/ScanGenLib.git
 	branch = master
 [submodule "SEM_PolygonCtrlLib"]
 	path = SEM_PolygonCtrlLib
 	ignore = all
-	url = ssh://yidontekSW@192.168.3.130/volume1/GitRepo/SEMPro/SEM_UI/SEM_PolygonCtrlLib.git
+	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_UI/SEM_PolygonCtrlLib.git
 	branch = master

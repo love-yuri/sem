@@ -586,7 +586,7 @@ def sync_master_to_absem():
 
 
 def copy_to_f_drive():
-    """一键复制到 F 盘（增量复制，排除 bin/obj/.vs）"""
+    """一键复制到 F 盘（增量复制，排除 bin/obj/.vs/.idea/.git）"""
     print_header("复制到 F 盘")
 
     src = os.getcwd()
@@ -598,7 +598,7 @@ def copy_to_f_drive():
 
     print(f"  {info('源目录:')} {Color.WHITE}{src}{Color.RESET}")
     print(f"  {info('目标:')}   {Color.WHITE}{dst}{Color.RESET}")
-    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/{Color.RESET}")
+    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/ .idea/ .git/{Color.RESET}")
     print()
 
     # 使用 robocopy 实现增量复制
@@ -609,7 +609,7 @@ def copy_to_f_drive():
     cmd = [
         "robocopy", src, dst,
         "/MIR",
-        "/XD", "bin", "obj", ".vs", "$RECYCLE.BIN",
+        "/XD", "bin", "obj", ".vs", ".idea", ".git", "$RECYCLE.BIN",
         "/XA:SH",
         "/MT:16"
     ]
@@ -633,6 +633,56 @@ def copy_to_f_drive():
         print(f"\n  {error('执行失败: ' + str(e))}")
 
     print(f"\n  {colorize('→', Color.CYAN)} 复制完成")
+
+
+def copy_from_f_drive():
+    """一键从 F 盘同步到 E:\\work\\sem（增量复制，排除 bin/obj/.vs/.idea/.git）"""
+    print_header("从 F 盘同步")
+
+    src = "F:\\sem"
+    dst = "E:\\work\\sem"
+
+    if not os.path.exists(src):
+        print(f"  {error('F 盘 sem 目录不存在')}")
+        return
+
+    print(f"  {info('源目录:')} {Color.WHITE}{src}{Color.RESET}")
+    print(f"  {info('目标:')}   {Color.WHITE}{dst}{Color.RESET}")
+    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/ .idea/ .git/{Color.RESET}")
+    print()
+
+    # 使用 robocopy 实现增量复制
+    # /MIR - 镜像（增量同步）
+    # /XD - 排除目录
+    # /XA:SH - 排除系统和隐藏文件
+    # /MT:16 - 16线程并行
+    cmd = [
+        "robocopy", src, dst,
+        "/MIR",
+        "/XD", "bin", "obj", ".vs", ".idea", ".git", "$RECYCLE.BIN",
+        "/XA:SH",
+        "/MT:16"
+    ]
+
+    print(f"  {info('开始同步...')}\n")
+
+    try:
+        result = subprocess.run(cmd)
+
+        # robocopy 返回值: 0=无变化, 1=有复制, 2=有额外, 4=有不匹配, 8=有失败
+        print()
+        if result.returncode < 4:
+            if result.returncode == 0:
+                print(f"  {success('完成 - 所有文件已是最新，无需复制')}")
+            else:
+                print(f"  {success('完成 - 已同步更新')}")
+        else:
+            print(f"  {error('同步过程有错误')}")
+
+    except Exception as e:
+        print(f"\n  {error('执行失败: ' + str(e))}")
+
+    print(f"\n  {colorize('→', Color.CYAN)} 同步完成")
 
 
 def show_status():
@@ -693,6 +743,7 @@ def print_menu():
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('6', Color.BRIGHT_WHITE)}. 同步 master → ABSEM")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('7', Color.BRIGHT_WHITE)}. 显示所有仓库状态")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('8', Color.BRIGHT_WHITE)}. 一键复制到 F 盘")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('9', Color.BRIGHT_WHITE)}. 从 F 盘同步到本地")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('0', Color.BRIGHT_RED)}. 退出")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
@@ -731,6 +782,8 @@ def main():
             show_status()
         elif choice == "8":
             copy_to_f_drive()
+        elif choice == "9":
+            copy_from_f_drive()
         elif choice == "0":
             print(f"\n  {colorize('👋 再见!', Color.BRIGHT_CYAN)}\n")
             sys.exit(0)
