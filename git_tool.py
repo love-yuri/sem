@@ -636,7 +636,7 @@ def copy_to_f_drive():
 
 
 def copy_from_f_drive():
-    """一键从 F 盘同步到 E:\\work\\sem（增量复制，排除 bin/obj/.vs/.idea/.git）"""
+    """一键从 F 盘同步到 E:\\work\\sem（增量复制，排除 bin/obj/.vs/.idea/.git 目录和文件）"""
     print_header("从 F 盘同步")
 
     src = "F:\\sem"
@@ -648,18 +648,20 @@ def copy_from_f_drive():
 
     print(f"  {info('源目录:')} {Color.WHITE}{src}{Color.RESET}")
     print(f"  {info('目标:')}   {Color.WHITE}{dst}{Color.RESET}")
-    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/ .idea/ .git/{Color.RESET}")
+    print(f"  {info('排除:')}   {Color.GRAY}bin/ obj/ .vs/ .idea/ .git(目录和文件){Color.RESET}")
     print()
 
     # 使用 robocopy 实现增量复制
     # /MIR - 镜像（增量同步）
     # /XD - 排除目录
+    # /XF - 排除文件（子模块的 .git 可能是文件）
     # /XA:SH - 排除系统和隐藏文件
     # /MT:16 - 16线程并行
     cmd = [
         "robocopy", src, dst,
         "/MIR",
         "/XD", "bin", "obj", ".vs", ".idea", ".git", "$RECYCLE.BIN",
+        "/XF", ".git",
         "/XA:SH",
         "/MT:16"
     ]
