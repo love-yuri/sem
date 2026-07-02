@@ -52,3 +52,7 @@ nunit-*.xml
 /AppData/diss6/logs
 
 /build/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
