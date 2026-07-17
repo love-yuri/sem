@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoammeterCtlrLib", "SEM_U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEM_PolygonCtrlLib", "SEM_PolygonCtrlLib\SEM_PolygonCtrlLib.csproj", "{F8C4ADC5-FF6C-4F2B-8118-8F08CE8F645B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTuner", "AutoTuner\AutoTuner.csproj", "{75BA7AFC-AB48-42B7-B02B-875B3263EC0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{F8C4ADC5-FF6C-4F2B-8118-8F08CE8F645B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C4ADC5-FF6C-4F2B-8118-8F08CE8F645B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C4ADC5-FF6C-4F2B-8118-8F08CE8F645B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BA7AFC-AB48-42B7-B02B-875B3263EC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BA7AFC-AB48-42B7-B02B-875B3263EC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BA7AFC-AB48-42B7-B02B-875B3263EC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BA7AFC-AB48-42B7-B02B-875B3263EC0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
