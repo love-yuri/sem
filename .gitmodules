@@ -153,6 +153,11 @@
 	ignore = all
 	url = ssh://yidontekSW@10.0.1.152/volume1/GitRepo/SEMPro/SEM_Server/AutoFocusLib.git
 	branch = master
+[submodule "AutoTuner"]
+	path = AutoTuner
+	ignore = all
+	url = ssh://yidontekSW@10.0.30.30/volume1/GitRepo/SEMPro/SEM_Server/AutoTuner.git
+	branch = master
 [submodule "CSServer"]
 	path = CSServer
 	ignore = all
