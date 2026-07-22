@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AutoBCLib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AutoFocusLib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AutoTuner" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CSServer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ClientLib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Database" vcs="Git" />
