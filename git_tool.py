@@ -585,15 +585,15 @@ def sync_master_to_absem():
         print(f"\n  {colorize('→', Color.CYAN)} 同步完成，共 {colorize(str(success_count), Color.BOLD)} 个仓库")
 
 
-def copy_to_f_drive():
-    """一键复制到 F 盘（增量复制，排除 bin/obj/.vs/.idea）"""
-    print_header("复制到 F 盘")
+def copy_to_d_drive():
+    """一键复制到 D 盘（增量复制，排除 bin/obj/.vs/.idea）"""
+    print_header("复制到 D 盘")
 
     src = os.getcwd()
-    dst = "F:\\sem"
+    dst = "D:\\sem"
 
     if not os.path.exists(dst):
-        print(f"  {error('F 盘不存在')}")
+        print(f"  {error('D 盘不存在')}")
         return
 
     print(f"  {info('源目录:')} {Color.WHITE}{src}{Color.RESET}")
@@ -635,15 +635,15 @@ def copy_to_f_drive():
     print(f"\n  {colorize('→', Color.CYAN)} 复制完成")
 
 
-def copy_from_f_drive():
-    """一键从 F 盘同步到 E:\\work\\sem（增量复制，排除 bin/obj/.vs/.idea/.git 目录和文件）"""
-    print_header("从 F 盘同步")
+def copy_from_d_drive():
+    """一键从 D 盘同步到 C:\\work\\sem（增量复制，排除 bin/obj/.vs/.idea/.git 目录和文件）"""
+    print_header("从 D 盘同步")
 
-    src = "F:\\sem"
-    dst = "E:\\work\\sem"
+    src = "D:\\sem"
+    dst = "C:\\work\\sem"
 
     if not os.path.exists(src):
-        print(f"  {error('F 盘 sem 目录不存在')}")
+        print(f"  {error('D 盘 sem 目录不存在')}")
         return
 
     print(f"  {info('源目录:')} {Color.WHITE}{src}{Color.RESET}")
@@ -744,8 +744,8 @@ def print_menu():
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('5', Color.BRIGHT_WHITE)}. 所有仓库切到 master 分支")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('6', Color.BRIGHT_WHITE)}. 同步 master → ABSEM")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('7', Color.BRIGHT_WHITE)}. 显示所有仓库状态")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('8', Color.BRIGHT_WHITE)}. 一键复制到 F 盘")
-    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('9', Color.BRIGHT_WHITE)}. 从 F 盘同步到本地")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('8', Color.BRIGHT_WHITE)}. 一键复制到 D 盘")
+    print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('9', Color.BRIGHT_WHITE)}. 从 D 盘同步到本地")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}    {colorize('0', Color.BRIGHT_RED)}. 退出")
     print(f"  {Color.BRIGHT_CYAN}│{Color.RESET}")
@@ -783,9 +783,9 @@ def main():
         elif choice == "7":
             show_status()
         elif choice == "8":
-            copy_to_f_drive()
+            copy_to_d_drive()
         elif choice == "9":
-            copy_from_f_drive()
+            copy_from_d_drive()
         elif choice == "0":
             print(f"\n  {colorize('👋 再见!', Color.BRIGHT_CYAN)}\n")
             sys.exit(0)
